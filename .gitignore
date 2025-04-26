@@ -1,0 +1,29 @@
+# Ignore environment and secret files
+env
+
+# Ignore Docker volumes and database data
+postgres-data/
+
+# Ignore shell scripts generated or temporary (optional)
+*.sh
+
+# Ignore logs
+*.log
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+nginx/certs/
+
+nginx/certs/accounts/
+
+nginx/certs/archive/
+
+nginx/certs/csr/
+
+nginx/certs/keys/
+
+nginx/certs/live/
+
+nginx/certs/renewal/
